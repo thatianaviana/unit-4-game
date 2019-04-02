@@ -1,0 +1,77 @@
+.header {
+    text-align: center;
+    /* border: 1px solid black;  */
+    background-color: #AD0143;
+    height: 100px;
+    /* padding-top: 20px; */
+    margin-top: 10px;
+    padding-left: 10px;
+    color: white;   
+}
+#instructions {
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    padding: 15px;
+    height: 400px;
+    width: 150px;
+    background-color: #0F7D9C;
+    color: white;
+}
+
+body {
+    background: url("https://static1.squarespace.com/static/568e423c40667a4dbfc57ebe/568e42fb9cadb62c89089dc2/5788f227bebafbfd322c650f/1497551050538/bricks-459299_1920.jpg?format=2500w");
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* .img-fluid {
+    width: 150px;
+    height: 150px;
+    padding: -5px;
+    margin: -2px;
+} */
+#randomNumber {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #8994AC;
+    margin-right: 20px;
+    
+    
+}
+
+#playerTrack {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color:#E0C6C1;
+    width: 100%
+
+}
+
+.scoreNumber     {
+    /* border: 1px solid black; */
+    background-color: #E0C6C1;
+    margin-top: 20px;
+    height: 50px;
+    padding-top: 5px;
+}
+
+h3 {
+    /* border: 1px solid black; */
+    background-color:#E0C6C1;
+    margin-top: 20px;
+    height: 200px;
+
+}
+button {
+    border: 2px solid grey;
+}
+
+/* #winLossAlert {
+
+} */
