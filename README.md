@@ -1,20 +1,17 @@
 # unit-4-game
 
+Crystal Collectors!!!
 
-This is a guessing game using random numbers.
+A new guessing game using random numbers.
 
-There will be four crystals displayed as buttons on the page.
+There are four crystals in the game which will have a random number between 1-12 and will refresh everytime someone loses or win. The amount of what each crystal is worth is not shown to the player.
 
-The player will be shown a random number at the start of the game.
+The player will be shown a random number at the start of the game which is picked by the computer - the numbers are betweem 19-120.
 
 When the player clicks on a crystal it will add a specific amount of points to the player's total score.
 
-The player wins the game if their total score matches the random number and the player loses the game if their total score goes above the random number.
+The player wins the game if their total score matches the random number and if their total score goes higher than the random number the player loses. 
 
-The amount of points each crystal adds is not shown to the player, but their total score is displayed and updated after each crystal is clicked.
+The number of games won/lost will be displayed and updated by each win/loss along with a message "You Won!!!" or "You Lost!!!" 
 
-The number of games won and lost will be displayed and updated by each win/loss. The game will then restart by giving another random number and all the crystals will now have 4 different hidden values, and the player's total score is reset to 0.
-
-Game design note:
-The random number shown at the start of the game should be between 19 - 120
-Each crystal should have a random hidden value between 1 - 12
+The game restarts by giving another random number and different numbers for the crystals without needing to refresh the page.
