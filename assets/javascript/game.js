@@ -43,7 +43,6 @@ $(document).ready(function () {
         crystal3 = Math.floor(Math.random() * 11 + 1);
         crystal4 = Math.floor(Math.random() * 11 + 1);
         console.log("crystals random numbers reset: ", crystal1, crystal2, crystal3, crystal4);
-
         totalScore = 0;
         $('#finalScore').text(totalScore);
 
@@ -51,9 +50,9 @@ $(document).ready(function () {
 
     //add the wins to the playerTrack
     function winner() {
-        userWins++;
-        $('#win').text(userWins);
-        $('#winLossAlert').text("You Won!!!")
+        userWins++; //ups the win score by one
+        $('#win').text(userWins); //updates the HTML with the win
+        $('#winLossAlert').text("You Won!!!") //update the HTML with a WIN message
         reset();
     }
     //add the losses to the playerTrack
