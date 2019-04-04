@@ -26,6 +26,7 @@ $(document).ready(function () {
 
 
     var totalScore = 0; //total score for the addition of clicked crystals
+    $('#finalScore').text(totalScore);
     var userWins = 0; //total score for number of wins
     var userLoss = 0; // total score for the number of losses
 
